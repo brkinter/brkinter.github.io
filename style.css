@@ -5,10 +5,10 @@ body{
 }
 .header{
 	padding-top:40px;
-	padding-bottom:10px;
+	padding-bottom:75px;
 	width: 100%;
 	height:50px;
-	background-color:rgba(50,50,50,.95);
+	background-color:rgba(50,50,50,.75);
 	border-bottom: 2px solid black;
 	position:fixed;
 	top:0;
@@ -27,21 +27,19 @@ body{
 	text-align: center;
 }
 .pageLink{
-	font-size: 145%;
+	font-size: 165%;
 	margin-left: 5%;
 	margin-right: 5%;
+	color: rgb(0,100,255);
+	text-decoration: underline;
 }
 .pageLink:link {
-    color: #F7CE74;
-    text-decoration: none;
 }
 /* visited link */
 .pageLink:visited {
-    color: #F7CE74;
 }
 /* mouse over link */
 .pageLink:hover {
-    color: #FFFF2E;
     text-decoration: underline;
 }
 /*
@@ -84,8 +82,8 @@ body{
 	left:0;
 	padding-left:2%;
 	margin-top:-30px;
-	height:80px;
-	width:100px;
+	height:150px;
+	width:200px;
 }
 #aboutMeBackground{
 	bottom: 0;
@@ -100,12 +98,9 @@ body{
 	height: 100%;
 	background-image:url("images/background4.jpg");
 }
-#containerHome{
-	position:absolute;
-	top:0;
-	bottom: 0;
-	overflow: auto;
-	height: 100%;	
+#containerNew{
+	background-image:url(images/UF.png);
+	background-size: 100% 100%;
 }
 #me{
 	padding-top:5%;
