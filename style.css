@@ -115,11 +115,18 @@ body{
 	margin-top: 50px;
 	border-bottom: 2px solid black
 }
-#aboutMe{
+#aboutandcontact{
 	font-size: 120%;
 	font-weight: bold;
 	padding-top:2%;
-	padding-left: 18%;
+	padding-left: 17%;
+	padding-right:15%;
+}
+#eventsandmembers{
+	font-size: 120%;
+	font-weight: bold;
+	padding-top:2%;
+	padding-left: 30%;
 	padding-right:15%;
 }
 #resume{
